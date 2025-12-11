@@ -1,0 +1,24 @@
+/* [project]/BootCamp/bootcamp-project-2025/milestone-4/src/components/blogRead.module.css [app-client] (css) */
+.blogRead-module__YMvf8a__first {
+  position: fixed;
+  top: 120px;
+}
+
+.blogRead-module__YMvf8a__blog {
+  background: #fff;
+  border-radius: 1rem;
+  width: 80%;
+  max-width: 800px;
+  margin: 6rem auto 2rem;
+  padding: 1rem;
+  transition: transform .2s, box-shadow .2s;
+  box-shadow: 0 6px 20px #000;
+}
+
+.blogRead-module__YMvf8a__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*# sourceMappingURL=0a04a_bootcamp-project-2025_milestone-4_src_components_blogRead_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,20 @@
+/* [project]/BootCamp/bootcamp-project-2025/milestone-4/src/components/comment.module.css [app-client] (css) */
+.comment-module__uuCIMG__commentrow {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  display: flex;
+}
+
+.comment-module__uuCIMG__commenttext {
+  word-break: break-word;
+  text-align: left;
+  flex: 1;
+}
+
+.comment-module__uuCIMG__date {
+  white-space: nowrap;
+  margin-left: 1rem;
+}
+
+/*# sourceMappingURL=0a04a_bootcamp-project-2025_milestone-4_src_components_comment_module_css_bad6b30c._.single.css.map*/

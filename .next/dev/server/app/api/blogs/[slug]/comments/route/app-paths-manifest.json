@@ -1,0 +1,3 @@
+{
+  "/api/blogs/[slug]/comments/route": "app/api/blogs/[slug]/comments/route.js"
+}

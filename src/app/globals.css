@@ -1,0 +1,14 @@
+.div{
+  position: fixed;
+  top: 120px;
+  font-size :30;
+  color: blue;
+}
+.blog-container{
+ 
+    margin: 1 auto;         
+    padding: 2rem;  
+    padding-top: 120px;  
+
+}
+

@@ -1,0 +1,46 @@
+/* [project]/BootCamp/bootcamp-project-2025/milestone-4/src/components/textBox.module.css [app-client] (css) */
+.textBox-module__LSPzja__box {
+  text-align: center;
+  background: #fff;
+  border-radius: 1rem;
+  align-self: center;
+  width: 80%;
+  max-width: 800px;
+  margin: 3rem auto 2rem;
+  padding: 1rem;
+  transition: transform .2s, box-shadow .2s;
+  box-shadow: 0 6px 20px #000;
+}
+
+.textBox-module__LSPzja__firstBox {
+  text-align: center;
+  background: #fff;
+  border-radius: 1rem;
+  align-self: center;
+  width: 80%;
+  max-width: 800px;
+  margin: 9rem auto 2rem;
+  padding: 1rem;
+  font-size: clamp(1.3rem, 2vw, 1.5rem);
+  transition: transform .2s, box-shadow .2s;
+  box-shadow: 0 6px 20px #000;
+}
+
+.textBox-module__LSPzja__inside img {
+  border: 2px #000;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.textBox-module__LSPzja__inside ul {
+  width: fit-content;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+}
+
+.textBox-module__LSPzja__inside li {
+  text-align: left;
+}
+
+/*# sourceMappingURL=0a04a_bootcamp-project-2025_milestone-4_src_components_textBox_module_css_bad6b30c._.single.css.map*/
