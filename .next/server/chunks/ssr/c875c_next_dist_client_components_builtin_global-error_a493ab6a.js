@@ -1,0 +1,3 @@
+module.exports=[62564,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(67707);a.n(d("[project]/Desktop/portfolio-milestone-4/finalWebsite/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},71436,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(67707);a.n(d("[project]/Desktop/portfolio-milestone-4/finalWebsite/node_modules/next/dist/client/components/builtin/global-error.js"))},88503,a=>{"use strict";a.i(62564);var b=a.i(71436);a.n(b)}];
+
+//# sourceMappingURL=c875c_next_dist_client_components_builtin_global-error_a493ab6a.js.map

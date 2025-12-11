@@ -1,0 +1,20 @@
+/* [project]/Desktop/portfolio-milestone-4/finalWebsite/src/components/comment.module.css [app-client] (css) */
+.comment-module__tXHnGW__commentrow {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  display: flex;
+}
+
+.comment-module__tXHnGW__commenttext {
+  word-break: break-word;
+  text-align: left;
+  flex: 1;
+}
+
+.comment-module__tXHnGW__date {
+  white-space: nowrap;
+  margin-left: 1rem;
+}
+
+/*# sourceMappingURL=3d860_portfolio-milestone-4_finalWebsite_src_components_comment_module_css_bad6b30c._.single.css.map*/

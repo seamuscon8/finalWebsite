@@ -1,12 +1,12 @@
 {
   "app": {
-    "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page": [
+    "[project]/Desktop/portfolio-milestone-4/finalWebsite/src/app/about/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/blogs/[slug]/page": [
+    "[project]/Desktop/portfolio-milestone-4/finalWebsite/src/app/blogs/[slug]/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/blogs/page": [
+    "[project]/Desktop/portfolio-milestone-4/finalWebsite/src/app/blogs/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ]
   },
