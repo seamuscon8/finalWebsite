@@ -3,13 +3,10 @@ import connectDB from '@/src/database/db'
 import Blog from '@/src/database/blogSchema'
 
 
-type IParams = {
-		params: {
-			slug: string
-		}
-}
 
-export async function GET(req: NextRequest, { params }: IParams) {
+
+export async function GET(req: NextRequest, { params }:{ params: Promise<{ slug: string }> }
+ ) {
 		// If { params } looks confusing, check the note below this code block
 		
     await connectDB() // function from db.ts before

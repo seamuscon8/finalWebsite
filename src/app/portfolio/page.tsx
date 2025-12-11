@@ -2,12 +2,14 @@ import React from 'react'
 import TextBox from "../../components/textBox"
 import { notFound } from "next/navigation";
 import ProjectRead from '@/src/components/projectRead';
+export const dynamic = "force-dynamic";
+
 
 export default async function Portfolio() {
      
     const base = process.env.NEXT_PUBLIC_BASE_URL!;
      
-    const res = await fetch(`${base}/api/portfolio`);
+    const res = await fetch(`/api/portfolio`, { cache: "no-store" });
     
     if (res.status === 404) notFound();
     if (!res.ok) throw new Error("Failed to load blog");
