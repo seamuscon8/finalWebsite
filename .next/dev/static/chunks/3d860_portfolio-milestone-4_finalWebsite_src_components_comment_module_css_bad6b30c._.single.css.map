@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Desktop/portfolio-milestone-4/finalWebsite/src/components/comment.module.css"],"sourcesContent":[".commentrow {\n    display: flex;\n    justify-content: space-between;\n    align-items: flex-start;\n    gap: 1rem;           /* space between text + date */\n}\n\n.commenttext {\n    flex: 1;            \n    word-break: break-word; \n    text-align: left;\n}\n\n.date {\n    white-space: nowrap; \n    margin-left: 1rem;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;AAOA;;;;;;AAMA"}}]
-}

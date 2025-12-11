@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/globals.css"],"sourcesContent":[".div{\n  position: fixed;\n  top: 120px;\n  font-size :30;\n  color: blue;\n}\n.blog-container{\n \n    margin: 1 auto;         \n    padding: 2rem;  \n    padding-top: 120px;  \n\n}\n\n"],"names":[],"mappings":"AAAA;;;;;;;AAMA"}}]
-}

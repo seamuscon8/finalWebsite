@@ -1,7 +1,0 @@
-{
-  "/about/page": "app/about/page.js",
-  "/api/blogs/[slug]/route": "app/api/blogs/[slug]/route.js",
-  "/api/blogs/route": "app/api/blogs/route.js",
-  "/blogs/[slug]/page": "app/blogs/[slug]/page.js",
-  "/blogs/page": "app/blogs/page.js"
-}
