@@ -15,6 +15,7 @@ function parseCommentTime(time: Date){
 	
 
     return new Date(time).toLocaleDateString("en-US", {
+    timeZone: "America/Los_Angeles",
     year: "numeric",
     month: "long",
     day: "numeric",

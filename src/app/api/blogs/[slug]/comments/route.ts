@@ -32,7 +32,7 @@ export async function POST(
         };
 
         const blogs = await Blog.find({}, "slug").lean();
-        console.log("🔎 All slugs in DB =", blogs);
+
 
         const updatedBlog = await Blog.findOneAndUpdate(
             {slug},
