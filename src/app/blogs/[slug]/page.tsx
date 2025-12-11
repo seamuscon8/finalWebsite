@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import BlogRead from "@/src/components/blogRead";
 import { headers } from "next/headers";
 export const dynamic = "force-dynamic";
-
+import { getBaseUrl } from "@/src/lib/getBaseUrl";
 
 
 
@@ -12,7 +12,8 @@ export const dynamic = "force-dynamic";
 export default async function Blog({ params }: { params:Promise<{ slug: string }> }) {
   const { slug } = await params;
  
-    const res = await fetch(`/api/blogs/${slug}`, {
+    const base = getBaseUrl();
+    const res = await fetch(`${base}/api/blogs/${slug}`, {
     cache: "no-store",
   });
 

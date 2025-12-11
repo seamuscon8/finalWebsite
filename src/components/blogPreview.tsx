@@ -13,11 +13,14 @@ export default function BlogPreview(props: Blog) {
     // props.date is a string before it's passed in 
     <div className={style.blogpost}>
         <h3>{props.title}</h3>
-        <h4>{props.date.toLocaleDateString("en-US", {
-         year: "numeric",
-        month: "short",
+        <h4>
+        {new Date(props.date).toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "short",
           day: "numeric",
-        })}</h4>
+        })}
+        </h4>
+
 
         <Image  
             src={`/images/${props.image}`} 

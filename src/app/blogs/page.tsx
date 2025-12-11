@@ -1,15 +1,19 @@
 import BlogPreview from "@/src/components/blogPreview"
 import "../globals.css"
 import { notFound } from "next/navigation"
+import { getBaseUrl } from "@/src/lib/getBaseUrl";
 export const dynamic = "force-dynamic";
+
 
 
 
 import Blog from "@/src/database/blogSchema"
 import connectDB from "@/src/database/db"
 export default async function Home() {
-		 
-	  const res = await fetch(`/api/blogs`, {
+	
+	const base = getBaseUrl();
+	
+	const res = await fetch(`${base}/api/blogs`, {
     cache: "no-store",
   });
 		
